@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.ocm22.actitime.facebookTest" duration-ms="10362" started-at="2015-12-14T17:30:05Z" finished-at="2015-12-14T17:30:16Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="10362" started-at="2015-12-14T17:30:05Z" finished-at="2015-12-14T17:30:16Z">
+      <class name="com.ocm22.actitime.facebookTest">
+        <test-method status="PASS" signature="login()" name="login" duration-ms="10346" started-at="2015-12-14T17:30:05Z" finished-at="2015-12-14T17:30:16Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

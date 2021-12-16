@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16051" started-at="2015-11-01T12:41:54Z" finished-at="2015-11-01T12:42:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16051" started-at="2015-11-01T12:41:54Z" finished-at="2015-11-01T12:42:10Z">
+      <class name="com.actitime.projectandcustomertest.projectAndCustomertest">
+        <test-method status="PASS" signature="configBeforeClassMtd()[pri:0, instance:com.actitime.projectandcustomertest.projectAndCustomertest@34033bd0]" name="configBeforeClassMtd" is-config="true" duration-ms="12540" started-at="2015-11-01T18:11:54Z" finished-at="2015-11-01T18:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClassMtd -->
+        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.actitime.projectandcustomertest.projectAndCustomertest@34033bd0]" name="configBeforeMtd" is-config="true" duration-ms="2560" started-at="2015-11-01T18:12:06Z" finished-at="2015-11-01T18:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMtd -->
+        <test-method status="PASS" signature="createCustomerTest()[pri:0, instance:com.actitime.projectandcustomertest.projectAndCustomertest@34033bd0]" name="createCustomerTest" duration-ms="948" started-at="2015-11-01T18:12:09Z" finished-at="2015-11-01T18:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerTest -->
+      </class> <!-- com.actitime.projectandcustomertest.projectAndCustomertest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

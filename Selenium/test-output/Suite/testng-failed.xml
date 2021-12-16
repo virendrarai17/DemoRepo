@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <test name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="test.projectAndCustomerTest">
+        <methods>
+          <include name="ConfigbeforeClass"/>
+          <include name="verifyCustomerTest"/>
+          <include name="logOutTest"/>
+          <include name="ConfigbeforeMethod"/>
+        </methods>
+      </class> <!-- test.projectAndCustomerTest -->
+      <class name="test.FirstTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.FirstTest -->
+      <class name="test.NewTest1">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- test.NewTest1 -->
+      <class name="test.NewTest">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.NewTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
